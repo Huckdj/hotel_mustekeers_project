@@ -1,0 +1,447 @@
+.body-header{
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+.item-content-text{
+    display: flex;
+}
+.item-header-logo{
+    margin-left: 3%;
+}
+.item-text{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.item-text:hover{
+    border-bottom: 1px solid;
+}
+.item-text p{
+    text-align: center;
+}
+.text-register{
+    text-decoration: none;
+    color: #000;
+}
+.text-register:hover{
+    color: #521aec;
+}
+.item-text-logout:hover{
+    border: 0px;
+}
+.item-text-logout{
+    margin-right: 50px;
+    display: grid;
+    place-content: center;
+}
+.container-search{
+    background-image: url('https://i.imgur.com/Pjd8M5r.png');
+    background-size: cover ;
+    padding: 150px;
+}
+.search-box{
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.link-room-full{
+    text-decoration: none;
+    color: #000;
+}
+.item-first{
+    display: grid;
+    place-items: center;
+    margin-top: 5%;
+    margin-left:10% ;
+    margin-right: 10%;
+}
+.item-first p{
+    font-size: 25px;
+}
+.item-first .link-room-full{
+    font-size: 17px;
+}
+.item-first .link-room-full:hover{
+    color: rgb(41, 41, 80);
+}
+.slick-slide > div{
+    margin: 0 10px;
+}
+.intro-room{
+    margin-left:10% ;
+    margin-right:10%;
+    margin-top: 2%;
+}
+.img-intro img{
+    width: 100%;
+}
+.text-hangphong{
+    text-decoration: none;
+    color: #000;
+}
+.text-hangphongs{
+    font-weight: bold;
+    margin-top: 5px;
+}
+.text-hangphongs:hover{
+    color: #521aec;
+}
+.nhanxet{
+    background-image: url('https://i.imgur.com/jUQkV7i.png');
+    background-size: cover;
+    margin-top: 70px;
+    padding-bottom: 200px;
+    display: block;
+
+}
+
+
+.the-first{
+    margin-left: 40%;
+    margin-right: 5%;
+    text-align: center;
+    margin-top: 10%;
+    color: black;
+    padding-top:100px ;
+}
+.the-first h2{
+    background-color: #f1e7e7;
+    border-radius: 100px 100px 100px 100px;
+
+}
+.the-first p{
+    font-size: 20px;
+    opacity: 100;
+    background-color: #f1e7e7;
+    border-radius: 100px 100px 100px 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.tnxet{
+    margin-left: 50%;
+    margin-right: 10%;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f1e7e7;
+    border-radius: 10px 10px 10px 10px;
+}
+.news{
+    margin-left:10% ;
+    margin-right:10%;
+    margin-top: 5%;
+}
+.tintuc{
+    text-align: center;
+}
+.name-news{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header-admin{
+    background-color: #f1e7e7;
+    background-size: cover;
+    display: flex;
+}
+.i-tem-admin{
+    margin-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border: 1px solid #8579a3;
+    margin-top: 5px;
+}
+.i-tem-admin:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.i-tem-admin:active{
+    color: aquamarine;
+}
+.item-link-admin{
+    text-decoration: none;
+    color: #000;
+    
+}
+.news-item{
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+.footer-body{
+    background-color: #1f1f1f;
+    padding-bottom: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10px;
+    margin-top: 10%;
+}
+.text-ft-1{
+    color: #f1f1f1;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-ft-2{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+}
+.text-item-1{
+    color: #f1f1f1;
+    margin-right: 50px;
+}
+.last-text-footer{
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 30px;
+}
+.nhanxetkhachhang{
+    margin-top: 10%;
+}
+.abchsd{
+    background-color: #0f0c16;
+    text-align: center;
+    
+    
+}
+.text0asd{
+    text-align: center;
+}
+.nahsdj{
+    padding-right: 20%;
+    padding-left: 20% ;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #f1f1f1;
+}
+.price-text{
+    font-style: italic;
+    color: burlywood;
+}
+.body-info{
+    display: grid;
+    place-items: center;
+    margin-top: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.img-info img{
+    width: 700px;
+    margin-right: 35px;
+}
+.info-roombody{
+    display: flex;
+}
+.textinfotenphong{
+    font-weight: bold;
+    font-size: 25px;
+}
+.price-info{
+    font-style: italic;
+    color: burlywood;
+    font-size: 25px;
+}
+.giadung{
+    list-style-type: square;
+    list-style-position: inside;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.info-bonus{
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 0.5px solid #f1f1f1;
+    border-bottom: 0.5px solid #f1f1f1;
+}
+.abchas{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
+.abchas:hover{
+    color: #521aec;
+}
+.abcajs{
+    text-align: start;
+    margin-left: 5%;
+    display: flex;
+    font-size: 17px;
+    margin-top: 3px;
+}
+.abcajs span{
+    margin-left: 30%;
+}
+.abcajs p{
+    font-weight: bold;
+}
+.rotate {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .rotate-icon {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .rotate-icon.rotate {
+    transform: rotate(180deg);
+  }
+.goiyroominfo{
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.firat{
+    background-color: #1f1f1f;
+    padding-bottom: 60px;
+    text-align: center;
+    color: #f1f1f1;
+    font-size:  30px;
+    padding-top: 20px;
+    font-weight: bold
+}
+.all-product{
+    display: grid;
+    place-items: center;
+    margin-top: 30px;
+}
+.set-bootom{
+    margin-bottom: 2%;
+}
+.set-bootom:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.text-product{
+    text-decoration: none;
+    color: #000;
+    margin-right: 5px;
+}
+.firats{
+    background-color: #1f1f1f;
+    padding-bottom: 60px;
+    text-align: center;
+    color: #f1f1f1;
+    font-size:  30px;
+    padding-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.form-input-branch{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.adminbranchedit th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    padding-right: 100px;
+}
+.adminbranchedit{
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.adminbranchedit td{
+    padding-right: 100px;
+}
+.rruans{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.abchshd{
+    display: flex;
+}
+.check-order{
+    width: 100%;
+    height: 10%;
+}
+.usertextlink{
+    text-decoration: none;
+    color: #000;
+}
+.useridasd{
+    margin-bottom: 10px;
+}
+.usertextlink:hover{
+    color: #521aec;
+}
+.infouser-body{
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 20%;
+}
+.avt91{
+    box-shadow: 0px 8px 16px 1px rgba(0,0,0,0.2);
+    border-radius: 5px 5px 5px 5px ;
+    padding-left: 2%;
+    padding-bottom: 5px;
+}
+.avt92{
+    box-shadow: 0px 8px 16px 1px rgba(0,0,0,0.2);
+    margin-top: 25px;
+    border-radius: 5px 5px 5px 5px ;
+    padding-left: 2%;
+}
+.avt92 h6{
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+.abssshd{
+    padding-bottom: 15px;
+}
+.loajdd{
+    padding-bottom: 15px;
+}
+.resetpassword{
+    box-shadow: 0px 8px 16px 1px rgba(0,0,0,0.2);
+    padding-left: 10px;
+}
+.order-bill{
+    box-shadow: 0px 8px 16px 1px rgba(0,0,0,0.2);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.abshsh{
+    margin-bottom: 10px;
+}
+.statusinfo{
+    color: green;
+}
